@@ -14,4 +14,4 @@
 - `RawData/`: bases de datos
 - `Scripts/`: script de Python
 - `Documento/`: reporte final con respuesta a las preguntas
-- `Resultados/`: Gráficas resultantes al correr el script
+- `Resultados/`: gráficas resultantes al correr el script
