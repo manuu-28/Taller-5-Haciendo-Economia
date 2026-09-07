@@ -4,9 +4,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
 
-ARCHIVO_TEMP = os.path.join("RawData", "datos_taller_5.csv")
-ARCHIVO_CO2 = os.path.join("RawData", "co2_data.txt")
-CARPETA_SALIDA = "Resultados"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ARCHIVO_TEMP = os.path.join(BASE_DIR, "RawData", "datos_taller_5.csv")
+ARCHIVO_CO2 = os.path.join(BASE_DIR, "RawData", "co2_data.txt")
+CARPETA_SALIDA = os.path.join(BASE_DIR, "Resultados")
 MES = "Jun"          
 MES_NUM = 6      
 
