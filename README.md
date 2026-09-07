@@ -5,8 +5,8 @@
 | Integrante | Rol |
 |---|---|
 | Manuela Vergara | Líder del proyecto y enlace con la entidad |
-| David Pascagaza | Especialista en datos y reproducibilidad |
-| Camilo Ospina | Analista cuantitativo |
+| David Pascagaza | Analista Cuantitativo |
+| Camilo Ospina | Especialista en datos y reproducibilidad |
 | Chari Reyes | Especialista en visualización y comunicación |
 
 ## Estructura del repositorio
