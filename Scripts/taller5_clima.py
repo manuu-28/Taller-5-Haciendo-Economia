@@ -22,11 +22,12 @@ def guardar(fig, nombre):
 
 def linea_con_cero(serie, titulo, ylabel, color="steelblue"):
     fig, ax = plt.subplots()
-    ax.axhline(0, color="darkorange", linewidth=1)
+    ax.axhline(0, color="darkorange", linewidth=1, label="promedio de 1951 a 1980")
     serie.plot(ax=ax, color=color)
     ax.set_title(titulo)
     ax.set_xlabel("Año")
     ax.set_ylabel(ylabel)
+    ax.legend()
     return fig, ax
 
 def tabla_frecuencias(df, año_ini, año_fin, meses=("Jun", "Jul", "Aug")):
@@ -72,13 +73,13 @@ guardar(fig, f"1_1_2_linea_{MES}.png")
 
 # --- 1.1.3(ii): línea por estación 
 fig, ax = plt.subplots()
-ax.axhline(0, color="darkorange", linewidth=1)
+ax.axhline(0, color="darkorange", linewidth=1, label="promedio de 1951 a 1980")
 for est in ["DJF", "MAM", "JJA", "SON"]:
     temp[est].plot(ax=ax, label=est)
 ax.set_title("Anomalía de temperatura por estación - Hemisferio Norte")
 ax.set_xlabel("Año")
 ax.set_ylabel("Anomalía de temperatura (°C)")
-ax.legend(title="Estación")
+ax.legend()
 guardar(fig, "1_1_3ii_estaciones.png")
 
 # --- 1.1.3(iii): línea anual 
@@ -175,4 +176,4 @@ print(f"Correlación de Pearson ({MES} vs. CO2): r = {r:.3f}  (p = {p_valor:.2e}
 
 
 print("\nListo. Gráficos en Output/Figuras/, tabla en "
-      "Output/1_2_5_media_varianza.csv")
+      "Resultados/1_2_5_media_varianza.csv")
