@@ -1,6 +1,7 @@
 """
 Taller 5 - Doing Economics: Midiendo la temperatura de la Tierra y el CO2
-Equipo consultor - [nombres de los 4 integrantes / rol]
+Equipo consultor - [Manuela Vergara / Lider, David Pascagaza / Analista Cuantitativo, 
+Camilo Ospina / Especialista en datos y reproducibilidad, Chari Reyes / Especialista en visualización y comunicación ]
 
 Cómo correrlo en Spyder:
   1. Abre tu repo/carpeta TALLER_5 como proyecto (Projects > New Project >
