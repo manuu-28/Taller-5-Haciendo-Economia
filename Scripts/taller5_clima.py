@@ -6,7 +6,7 @@ from scipy import stats
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARCHIVO_TEMP = os.path.join(BASE_DIR, "RawData", "datos_taller_5.csv")
-ARCHIVO_CO2 = os.path.join(BASE_DIR, "RawData", "co2_data.txt")
+ARCHIVO_CO2 = os.path.join(BASE_DIR, "RawData", "co2_data.xlsx")
 CARPETA_SALIDA = os.path.join(BASE_DIR, "Resultados")
 MES = "Jun"          
 MES_NUM = 6      
